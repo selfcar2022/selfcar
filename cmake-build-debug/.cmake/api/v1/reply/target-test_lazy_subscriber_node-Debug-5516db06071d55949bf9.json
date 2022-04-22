@@ -1,0 +1,525 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "devel/lib/velodyne_laserscan/test_lazy_subscriber_node"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"_add_rostest_google_test",
+			"add_rostest_gtest",
+			"target_link_libraries",
+			"add_dependencies",
+			"include_directories",
+			"dynreconf_called",
+			"generate_dynamic_reconfigure_options"
+		],
+		"files" : 
+		[
+			"/opt/ros/noetic/share/rostest/cmake/rostest-extras.cmake",
+			"velodyne/velodyne_laserscan/tests/CMakeLists.txt",
+			"/opt/ros/noetic/share/dynamic_reconfigure/cmake/dynamic_reconfigure-macros.cmake",
+			"velodyne/velodyne_laserscan/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 100,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 76,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 89,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 116,
+				"parent" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 29,
+				"parent" : 7
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-DGTEST_HAS_PTHREAD=1"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "ROSCONSOLE_BACKEND_LOG4CXX"
+				},
+				{
+					"define" : "ROS_BUILD_SHARED_LIBS=1"
+				},
+				{
+					"define" : "ROS_PACKAGE_NAME=\"velodyne_laserscan\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "/home/sumin/catkin_ws/src/cmake-build-debug/devel/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/sumin/catkin_ws/src/velodyne/velodyne_laserscan/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/opt/ros/noetic/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/usr/src/googletest/googletest/include"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/usr/src/googletest/googletest"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "gtest::@b738d542747fbb7ea6e3"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "std_msgs_generate_messages_cpp::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "std_msgs_generate_messages_eus::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "std_msgs_generate_messages_lisp::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "std_msgs_generate_messages_nodejs::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "std_msgs_generate_messages_py::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "geometry_msgs_generate_messages_cpp::@665d3e394682d8407098"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "geometry_msgs_generate_messages_eus::@665d3e394682d8407098"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "geometry_msgs_generate_messages_lisp::@665d3e394682d8407098"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "geometry_msgs_generate_messages_nodejs::@665d3e394682d8407098"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "geometry_msgs_generate_messages_py::@665d3e394682d8407098"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "roscpp_generate_messages_cpp::@665d3e394682d8407098"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "roscpp_generate_messages_eus::@665d3e394682d8407098"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "roscpp_generate_messages_lisp::@665d3e394682d8407098"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "roscpp_generate_messages_nodejs::@665d3e394682d8407098"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "roscpp_generate_messages_py::@665d3e394682d8407098"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "rosgraph_msgs_generate_messages_cpp::@665d3e394682d8407098"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "rosgraph_msgs_generate_messages_eus::@665d3e394682d8407098"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "rosgraph_msgs_generate_messages_lisp::@665d3e394682d8407098"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "rosgraph_msgs_generate_messages_nodejs::@665d3e394682d8407098"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "rosgraph_msgs_generate_messages_py::@665d3e394682d8407098"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "sensor_msgs_generate_messages_cpp::@665d3e394682d8407098"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "sensor_msgs_generate_messages_eus::@665d3e394682d8407098"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "sensor_msgs_generate_messages_lisp::@665d3e394682d8407098"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "sensor_msgs_generate_messages_nodejs::@665d3e394682d8407098"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "sensor_msgs_generate_messages_py::@665d3e394682d8407098"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "nodelet_generate_messages_cpp::@424a09d2a7e9b23b9d58"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "nodelet_generate_messages_eus::@424a09d2a7e9b23b9d58"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "nodelet_generate_messages_lisp::@424a09d2a7e9b23b9d58"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "nodelet_generate_messages_nodejs::@424a09d2a7e9b23b9d58"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "nodelet_generate_messages_py::@424a09d2a7e9b23b9d58"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "bond_generate_messages_cpp::@424a09d2a7e9b23b9d58"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "bond_generate_messages_eus::@424a09d2a7e9b23b9d58"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "bond_generate_messages_lisp::@424a09d2a7e9b23b9d58"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "bond_generate_messages_nodejs::@424a09d2a7e9b23b9d58"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "bond_generate_messages_py::@424a09d2a7e9b23b9d58"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "dynamic_reconfigure_generate_messages_cpp::@424a09d2a7e9b23b9d58"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "dynamic_reconfigure_generate_messages_eus::@424a09d2a7e9b23b9d58"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "dynamic_reconfigure_generate_messages_lisp::@424a09d2a7e9b23b9d58"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "dynamic_reconfigure_generate_messages_nodejs::@424a09d2a7e9b23b9d58"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "dynamic_reconfigure_generate_messages_py::@424a09d2a7e9b23b9d58"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "dynamic_reconfigure_gencfg::@424a09d2a7e9b23b9d58"
+		}
+	],
+	"id" : "test_lazy_subscriber_node::@b3d755d343feaf892479",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/sumin/catkin_ws/src/cmake-build-debug/gtest/lib:/opt/ros/noetic/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "gtest/lib/libgtestd.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/opt/ros/noetic/lib/libnodeletlib.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/opt/ros/noetic/lib/libbondcpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-luuid",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/opt/ros/noetic/lib/libclass_loader.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lPocoFoundation",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/opt/ros/noetic/lib/libroslib.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/opt/ros/noetic/lib/librospack.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpython3.8",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ltinyxml2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/opt/ros/noetic/lib/libroscpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/opt/ros/noetic/lib/librosconsole.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/opt/ros/noetic/lib/librosconsole_log4cxx.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/opt/ros/noetic/lib/librosconsole_backend_interface.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-llog4cxx",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/opt/ros/noetic/lib/libxmlrpcpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/opt/ros/noetic/lib/libroscpp_serialization.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/opt/ros/noetic/lib/librostime.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/opt/ros/noetic/lib/libcpp_common.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "test_lazy_subscriber_node",
+	"nameOnDisk" : "test_lazy_subscriber_node",
+	"paths" : 
+	{
+		"build" : "velodyne/velodyne_laserscan/tests",
+		"source" : "velodyne/velodyne_laserscan/tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "velodyne/velodyne_laserscan/tests/lazy_subscriber.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

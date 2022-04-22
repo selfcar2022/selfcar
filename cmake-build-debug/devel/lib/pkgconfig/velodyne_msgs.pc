@@ -1,0 +1,8 @@
+prefix=/home/sumin/catkin_ws/src/cmake-build-debug/devel
+
+Name: velodyne_msgs
+Description: Description of velodyne_msgs
+Version: 1.6.1
+Cflags: -I/home/sumin/catkin_ws/src/cmake-build-debug/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs

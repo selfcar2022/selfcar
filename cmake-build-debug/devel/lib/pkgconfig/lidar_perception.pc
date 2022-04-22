@@ -1,0 +1,8 @@
+prefix=/home/sumin/catkin_ws/src/cmake-build-debug/devel
+
+Name: lidar_perception
+Description: Description of lidar_perception
+Version: 0.0.0
+Cflags: -I/home/sumin/catkin_ws/src/Euclidean_Clustering/include
+Libs: -L${prefix}/lib 
+Requires: cv_bridge image_geometry pcl_ros roscpp sensor_msgs std_msgs

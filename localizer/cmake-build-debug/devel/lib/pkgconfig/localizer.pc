@@ -1,0 +1,8 @@
+prefix=/home/sumin/catkin_ws/src/localizer/cmake-build-debug/devel
+
+Name: localizer
+Description: Description of localizer
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

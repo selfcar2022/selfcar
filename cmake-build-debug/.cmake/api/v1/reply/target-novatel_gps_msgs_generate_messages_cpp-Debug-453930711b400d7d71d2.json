@@ -1,0 +1,610 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"generate_messages",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/novatel_gps_driver/novatel_gps_msgs/cmake/novatel_gps_msgs-genmsg.cmake",
+			"/opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake",
+			"novatel_gps_driver/novatel_gps_msgs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 307,
+				"parent" : 1
+			},
+			{
+				"file" : 0,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 365,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1509,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 372,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 374,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 376,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 380,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 382,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 386,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 388,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 390,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 392,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 394,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 396,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 398,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 400,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 402,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 404,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 406,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 408,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 410,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 412,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 414,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 416,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 418,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 420,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 422,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 424,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 428,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 430,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "std_msgs_generate_messages_cpp::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_ClockSteering::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_Gpgga::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_Gpgsa::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_Gpgsv::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_Gphdt::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_Gprmc::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_Inscov::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_Inspva::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_Inspvax::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_Insstdev::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_NovatelCorrectedImuData::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_NovatelDualAntennaHeading::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_NovatelExtendedSolutionStatus::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_NovatelHeading2::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_NovatelMessageHeader::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_NovatelPosition::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_NovatelPsrdop2::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_NovatelPsrdop2System::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_NovatelReceiverStatus::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_NovatelSignalMask::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_NovatelUtmPosition::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 27,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_NovatelVelocity::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 28,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_NovatelXYZ::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_Range::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_RangeInformation::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 31,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_Satellite::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 32,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_Time::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 33,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_Trackstat::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 34,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_TrackstatChannel::@bb635934963e94393792"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "_novatel_gps_msgs_generate_messages_check_deps_NovatelFRESET::@bb635934963e94393792"
+		}
+	],
+	"id" : "novatel_gps_msgs_generate_messages_cpp::@bb635934963e94393792",
+	"name" : "novatel_gps_msgs_generate_messages_cpp",
+	"paths" : 
+	{
+		"build" : "novatel_gps_driver/novatel_gps_msgs",
+		"source" : "novatel_gps_driver/novatel_gps_msgs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/novatel_gps_driver/novatel_gps_msgs/CMakeFiles/novatel_gps_msgs_generate_messages_cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/novatel_gps_driver/novatel_gps_msgs/CMakeFiles/novatel_gps_msgs_generate_messages_cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/ClockSteering.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/Gpgga.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/Gpgsa.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/Gpgsv.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/Gphdt.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/Gprmc.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/Inscov.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/Inspva.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/Inspvax.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/Insstdev.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/NovatelCorrectedImuData.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/NovatelDualAntennaHeading.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/NovatelExtendedSolutionStatus.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/NovatelFRESET.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/NovatelHeading2.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/NovatelMessageHeader.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/NovatelPosition.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/NovatelPsrdop2.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/NovatelPsrdop2System.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/NovatelReceiverStatus.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/NovatelSignalMask.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/NovatelUtmPosition.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/NovatelVelocity.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/NovatelXYZ.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/Range.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/RangeInformation.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/Satellite.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/Time.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/Trackstat.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/include/novatel_gps_msgs/TrackstatChannel.h.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
